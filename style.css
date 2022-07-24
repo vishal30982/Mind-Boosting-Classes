@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+header::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 45vh;
+    box-shadow: 10px 10px 10px black;
+    opacity: 0.3;
+    background: url('https://source.unsplash.com/random/900×700/?education') no-repeat center center/cover;
+}
+.mbc-logo{
+    border-radius: 50%;
+    display: inline-block;
+    border: 10px groove orange;
+}
+header > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    /* border: 2px solid black; */
+    width: 98px;
+    height: 98px;
+}
+header > p{
+    display: inline-block;
+    border: 10px groove red;
+}
+#navbar{
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    overflow: auto;
+    border-radius: 10vh;
+    background: linear-gradient(red, yellow, orange, white, green, black);
+}
+#mid{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+#mid ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    overflow: auto;
+}
+#mid ul li{
+    margin: auto 25vh;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#mid ul li a{
+    text-decoration: none;
+    color: black;
+}
+#mid ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+#search-bar{
+    height: 4.5vh;
+    width: 20vw;
+    border: 2px solid green;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+}
+.material-symbols-outlined{
+    height: 4.5vh;
+    border: 2px solid green;
+    border-right: none;
+    border-radius: 5px;
+    /* margin: 20px 0px auto auto; */
+    position: relative;
+    top: 1vh;
+    right: -1vh;
+}
+#sign-up-sign-in-btn-div{
+    width: 75vw;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+.btn{
+    width: 5vw;
+    height: 5vh;
+    margin: 2vh;
+}
+#log-in-btn{
+    border: 2px dashed black;
+}
+#sign-up-btn{
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+#log-in-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+#sign-up-btn:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    color: black;
+    transform: scaleY(-20px);
+    box-shadow: 5px 5px 3px black;
+}
+#classes-div-parent{
+    border: 2px solid black;
+    margin-top: 20vh;
+    width: 50vw;
+    height: 200vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.classes-div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 35vw;
+    height: 35vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#quiz-div{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    left: 65%;
+    top: 400px;
+    width: 30vw;
+    height: 40vh;
+}
+#quiz-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+}
+#quiz-div img{
+    height: 29.5vh;
+    width: 100%;
+}
+#esc-div{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 745px;
+    left: 65%;
+    width: 30vw;
+    height: 40vh;
+}
+#esc-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+}
+#esc-div img{
+    height: 29.5vh;
+    width: 100%;
+}
+#maths-div{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 172%;
+    left: 65%;
+    width: 30vw;
+    height: 40vh;
+}
+#maths-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+}
+#maths-div img{
+    height: 29.5vh;
+    width: 100%;
+}
+#hv-div{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 1435px;
+    left: 65%;
+    width: 30vw;
+    height: 40vh;
+}
+#hv-btn{
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+}
+#hv-div img{
+    height: 29.5vh;
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > p{
+    font-family: fantasy;
+    text-align: center;
+}
